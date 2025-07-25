@@ -1,0 +1,76 @@
+.education h4, .experience h4 {
+    margin-bottom: 50px;
+    font-size: 23px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: "Poppins, sans-serif";
+    color: #eee;
+    text-align: center;
+}
+
+.br-experience .timeline {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+    list-style: none;
+    position: relative;
+}
+
+.br-experience .timeline .timeline-item {
+    position: relative;
+    min-height: 210px;
+}
+
+.br-experience .timeline li {
+    margin: 0 0 48px 0;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+    background: #202337;
+    border: 1px solid #353250;
+}
+
+
+
+.br-experience .timeline li .timeline-info {
+    margin-top: -40px;
+    margin-bottom: 30px;
+}
+
+.br-experience .timeline li .timeline-info span {
+    transition: all 0.3s ease-in-out;
+    padding: 10px 15px;
+    background: #252940;
+    border-radius: 30px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+    border: 1px solid #353250;
+}
+
+.timeline-info span {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.timeline-content .timeline-title {
+    margin-top: 15px;
+    color: #8c6fff;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+}
+
+.timeline-content .timeline-title .sub {
+    margin-left: 15px;
+    color: #bbb;
+    font-size: 14px;
+}
+
+.timeline-content p {
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #a5a3b3;
+}
+

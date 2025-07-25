@@ -1,0 +1,89 @@
+.css-1vscx9z {
+    animation-duration: 1000ms;
+    animation-timing-function: ease;
+    animation-delay: 0ms;
+    animation-name: animation-1wmrf3h;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+}
+
+.br-project-box {
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 30px;
+    position: relative;
+    cursor: default;
+    border-radius: 15px;
+    background: #202337;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+    border: 1px solid #353250;
+    overflow: hidden;
+}
+
+.br-project-box h3 {
+    color: #eee;
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.br-project-box .texts {
+    margin-bottom: 10px;
+    color: #999;
+}
+
+.br-project-box span {
+    font-size: 14px;
+    color: #999;
+    font-weight: 300;
+}
+
+.br-project-box p {
+    font-size: 14px;
+}
+
+.br-project-box .br-info {
+    margin-top: 30px;
+    display: flex;
+}
+
+.br-project-box .br-detail {
+    padding-left: 30px;
+}
+
+.br-project-box .portfolio-img {
+    transition: all 0.3s ease-in-out;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.09);
+}
+
+.br-project-box .portfolio-img a {
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-attachment: inherit;
+    background-repeat: no-repeat;
+    display: block;
+    position: relative;
+    background-size: cover;
+}
+
+.br-project-box .br-detail ul {
+    margin: 0;
+    padding: 0;
+}
+
+.br-project-box .br-detail ul li {
+    padding: 5px 0;
+}
+
+.br-project-box .br-detail ul li {
+    padding: 5px 0;
+}
+

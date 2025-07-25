@@ -1,0 +1,101 @@
+.d-block{
+    display: block !important;
+}
+
+.br-contact .br-box{
+    margin-bottom: 30px;
+    padding: 30px;
+    display: flex;
+    background: #202337;
+    border-radius: 15px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #353250;
+}
+
+.br-contact .br-box .detail{
+    display: flex;
+    align-items: center;
+}
+
+.br-contact .br-box .ion{
+    min-width: 70px;
+    width: 70px;
+    height: 70px;
+    margin: 0 15px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #353250;
+    /* animation: morphing-image 15s linear infinite forwards; */
+}
+
+.br-contact .br-box .ion i {
+    font-size: 25px;
+    color: #ff6f6f;
+}
+
+.br-contact .br-box .info h3 {
+    font-size: 16px;
+}
+
+.br-contact .br-box .title{
+    padding: 0;
+    /* margin: 8; */
+}
+
+.br-contact form .form-group {
+    margin-bottom: 30px;
+}
+
+.br-contact form .form-group input, .br-contact form .form-group textarea {
+    padding: 15px;
+    border-color: #353250;
+    border-radius: 15px;
+    font-size: 15px;
+    color: #a5a3b3 !important;
+    background-color: #202337;
+}
+
+.br-contact form .form-group input::placeholder,
+.br-contact form .form-group textarea::placeholder {
+  color: #777; /* or any visible color */
+  opacity: 1;   /* ensure it's not faded out */
+}
+
+.br-contact form button {
+    height: auto;
+    margin: 10px 0 0 0;
+    background: transparent;
+}
+
+.br-learn-more-right{
+    transition: all 0.3s ease-in-out;
+    height: 40px;
+    margin-left: 130px;
+    color: #eee;
+    position: relative;
+    border: 1px solid #eee;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+
+.br-learn-more-right:hover{
+    background-color: #8c6fff;
+    color: #eee;
+    border-color: #7a5fe0;
+    cursor: pointer;
+    transform: scale(1.05);
+    
+}
+
+.br-learn-more-right .textarea {
+  color: #fff !important;
+}
+/* .form-control{
+    display: block;
+    width: 100%;
+
+} */

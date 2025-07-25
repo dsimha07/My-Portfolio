@@ -1,0 +1,41 @@
+.section-title{
+    position: relative;
+    text-align: center;
+}
+
+.row > *{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.section-title h2{
+    margin-bottom: 40px;
+    padding: 50px 0;
+    font-size: 36px;
+    line-height: 29px;
+    font-weight: 700;
+    font-family: "Quicksand";
+    /* width: 100%; */
+}
+
+.section-title h2 span {
+    color: #ff6f6f;
+}
+
+.section-title .light-title {
+    margin: auto;
+    position:absolute; 
+    text-align: center;
+    top:30%;
+    left: 50%;
+    /* right: 0; */
+    font-size: 130px;
+    font-weight: 700;
+    color: #202337;
+    line-height: 120px;
+    text-shadow: 5px -5px 10px #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    opacity: 0.12;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    white-space: nowrap;
+}

@@ -1,0 +1,52 @@
+.br-about-detail h4 {
+    margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+    font-family: "Poppins, sans-serif";
+    color: #eee;
+}
+
+.br-about-detail .br-text {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #a5a3b3;
+    font-family: "Poppins, sans-serif";
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.br-about-info{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.br-about-info ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.br-about-info ul li {
+    padding: 20px 0;
+    font-size: 16px;
+    line-height: 18px;
+    color: #a5a3b3;
+    font-family: "Poppins, sans-serif";
+    display: flex;
+    border-bottom: 1px dashed #353250;
+}
+
+.br-about-info ul li:first-child {
+    border-top: 1px dashed #353250;
+}
+
+.br-about-info ul li .title {
+    min-width: 110px;
+    display: inline-flex;
+    color: #eee;
+    font-weight: 600;
+    position: relative;
+}
+

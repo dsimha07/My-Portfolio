@@ -1,0 +1,249 @@
+/* 2.menu icon list */
+
+.br-sidebar-overlay{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 16;
+}
+
+.br-sidebar{
+    width: 250px;
+    height: 100%;
+    padding: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: auto;
+    display: block;
+    transition: all 0.5s ease 0s;
+    background-color: #202337;
+    box-shadow: none;
+    overflow: auto;
+    opacity: 1;
+    z-index: 16;
+}
+
+.br-open{
+    transform: translateX(0) !important;
+}
+
+.css-1bwerz7 {
+    animation-duration: 1000ms;
+    animation-timing-function: ease;
+    animation-delay: 0ms;
+    animation-name: animation-1w5lsuq;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+}
+
+.br-sidebar .menu-list{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.br-sidebar .menu-list .close-sidebar{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    color: #8c6fff;
+}
+
+.br-sidebar ul li {
+    transition: all 0.3s ease-in-out;
+}
+
+.br-sidebar ul li a{
+    transition: all 0.3s ease-in-out;
+    height: 60px;
+    padding-left: 30px !important;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    position: relative;
+}
+
+.br-sidebar ul li a:after {
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 30px;
+    position: absolute;
+    top: 42%;
+    left: 0;
+    background-color: #fff;
+}
+
+.br-sidebar ul li.active a {
+    padding-left: 40px !important;
+    color: #ff6f6f;
+    font-size: 25px;
+}
+
+nav button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+nav button:hover {
+  filter: drop-shadow(0 0 8px #8c6fff);
+  transition: all 0.3s ease;
+}
+
+/* hero section */
+
+.br-hero{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+} 
+
+.br-text-1{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    color: #1b1d30;
+    font-size: 12vw;
+    font-weight: 900;
+    z-index: -1;
+}
+
+.br-text-2{
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+    color: #1b1d30;
+    font-size: 12vw;
+    font-weight: 900;
+    z-index: -1;
+}
+
+.hero-content{
+    margin: 90px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+
+.br-hero .hero-content .hero-item{
+    position: relative;
+    padding: 60px 0 30px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.br-hero .hero-content .br-hero-detail {
+    max-width: 300px;
+    text-align: right;
+}
+
+.br-hero .hero-content .br-hero-detail .br-hero-detail {
+    margin-bottom: 30px;
+    text-align: right;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+
+
+.br-hero .hero-content .br-hero-detail .br-hero-title{
+    margin: -70px -110px 30px 0;
+    letter-spacing: 0.02rem;
+    font-size: 48px;
+    font-weight: 800;
+    z-index: 5;
+    line-height: 72px;
+    position: relative;
+}
+
+.br-hero-img{
+    max-width: 350px;
+    margin: 0 30px;
+    position: relative;
+}
+
+.br-hero-img:hover{
+    z-index: 6;
+}
+
+.br-hero-img:hover img{
+    filter: grayscale(0%) !important;
+}
+
+.br-hero .hero-content .br-hero-img img{
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    filter: grayscale(100%);
+}
+
+.br-hero-img::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    border: 1px solid #8c6fff;
+    border-radius: 15px;
+    z-index: -1;
+    opacity: 0.1;
+
+}
+
+.br-card{
+    position: relative;
+    transform-style: preserve-3d;
+    border-radius: 15px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.br-hero-name{
+    min-width: 300px;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+
+.underline{
+    margin-bottom: 0;
+    padding-bottom: 15px;
+    font-size: 46px;
+    font-weight: 200;
+    line-height: 52px;
+    position: relative;
+}
+
+ .underline::after{
+    content: "";
+    width: 105px;
+    height: 7px;
+    background-color: #8c6fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 5px;
+}
