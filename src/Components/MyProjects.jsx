@@ -2,6 +2,10 @@ import "./About.css";
 import "./MyProjects.css";
 import SecHeading from "./SecHeading";
 import ProjectBox from "./ProjectBox";
+import image1 from "../assets/images/image1";
+import image2 from "../assets/images/image2";
+import image3 from "../assets/images/image1";
+import image4 from "../assets/images/image4";
 
 const projectData = [
     {
@@ -9,7 +13,7 @@ const projectData = [
         subTitle1: "Real Time Headlines",
         subTitle2: "Personal Project",
         description: "Built a full-stack app scraping real-time headlines using Cheerio. Node.js backend served categorized news via APIs; React frontend displayed dynamic, filterable headlines.",
-        imgLoc:"/assets/images/image3.jpg",
+        imgLoc: image3,
         date: "Date: April 2025 – June 2025",
         tech: "Tech: React.js, Node.js, Express.js, REST API",
         type: "Type: Full-Stack | Web Scraping ",
@@ -20,7 +24,7 @@ const projectData = [
         subTitle1: "Modern UI",
         subTitle2: "Responsive Design",
         description: "Full-stack blog platform with CRUD, authentication, and PostgreSQL.Users can create, edit, and manage blogs; built with React, Node.js, and secured with Google OAuth.",
-        imgLoc:"/assets/images/image2.jpg",
+        imgLoc:image2,
         date: "Date: March 2025 - May 2025",
         tech: "Tech: Node.js, Express.js, PostgreSQL, EJS, OAuth ",
         type: "Type: Full-Stack | Blog Platform | Auth + CRUD",
@@ -31,7 +35,7 @@ const projectData = [
         subTitle1: "Modern UI",
         subTitle2: "Responsive Design",
         description: "Built a responsive personal portfolio using React.js and Bootstrap. Developed sections like Projects, About, and Contact with smooth navigation and clean UI components. JavaScript handled client-side logic and dynamic behavior.",
-        imgLoc:"/assets/images/image1.jpg",
+        imgLoc: image1,
         date: "Date: March 2024",
         tech: "Tech: React.js, javaScript, BootStrap",
         type: "Type: Professional Showcase",
@@ -42,7 +46,7 @@ const projectData = [
         subTitle1: "Full Stack",
         subTitle2: "Responsive Design",
         description: "A secure, scalable web-based platform for schools and institutions to conduct online multiple-choice exams with role-based access for administrators and students.",
-        imgLoc:"/assets/images/image1.jpg",
+        imgLoc: image1,
         date: "Date: March 2025 - June 2025",
         tech: "Tech: React.js, Node.js, Express.js, PostgresSQL",
         type: "Type: Enterprise-Level Application",

@@ -4,6 +4,7 @@ import "../index.css";
 import "./Home.css";
 import MenuItem from "./MenuItem";
 import Tilt from 'react-parallax-tilt';
+import IMG_3901 from "../assets/images/IMG_3901";
 
 
 const menuItems = [
@@ -132,7 +133,7 @@ export default function Home() {
                     gyroscope={true}
                     className="br-card"
                   >
-                    <img src="/assets/images/IMG_3901.jpg" alt="deepak simha" />
+                    <img src={IMG_3901} alt="deepak simha" />
                   </Tilt>
                 </div>
                 <div className="br-hero-name">
