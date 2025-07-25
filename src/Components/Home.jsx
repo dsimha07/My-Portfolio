@@ -4,7 +4,7 @@ import "../index.css";
 import "./Home.css";
 import MenuItem from "./MenuItem";
 import Tilt from 'react-parallax-tilt';
-import IMG_3901 from "../assets/images/IMG_3901";
+import IMG_3901 from "../assets/images/IMG_3901.jpg";
 
 
 const menuItems = [

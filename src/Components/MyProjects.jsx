@@ -2,10 +2,10 @@ import "./About.css";
 import "./MyProjects.css";
 import SecHeading from "./SecHeading";
 import ProjectBox from "./ProjectBox";
-import image1 from "../assets/images/image1";
-import image2 from "../assets/images/image2";
-import image3 from "../assets/images/image1";
-import image4 from "../assets/images/image4";
+import image1 from "../assets/images/image1.jpg";
+import image2 from "../assets/images/image2.jpg";
+import image3 from "../assets/images/image1.jpg";
+
 
 const projectData = [
     {
